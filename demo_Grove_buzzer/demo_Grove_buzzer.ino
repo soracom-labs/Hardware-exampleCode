@@ -21,7 +21,7 @@
     Info on the Grove device at https://wiki.seeedstudio.com/Grove-Buzzer/
 
     EXAMPLE NOTES
-    1. Install the Grove buzzer device into slot 'D0' on the Arduino MKR Connector Carrier board
+    1. Install the Grove buzzer device into slot 'D3' on the Arduino MKR Connector Carrier board
     2. Make the USB connection between the Arduino MKR 1400 your Arduino IDE (PC)
     3. Use the Arduino IDE to verify and upload the Arduino image to the MKR GPS 1400, you may need to install additional libraries from the IDE (CTRL SHIFT I) to verify the sketch.
     4. Start the serial monitor, the serial connection speed is set by SERIAL_SPEED at 9600 bps
@@ -37,7 +37,7 @@
 */
 
 #include <Arduino.h>
-#define BZR_PIN 0
+#define BZR_PIN 3
 
 bool timerExpired(unsigned long timeDelta = 1000)
 {
