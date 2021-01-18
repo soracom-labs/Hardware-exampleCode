@@ -22,7 +22,7 @@
     Bounce2 : by thomasfredericks, subject to the MIT License (MIT).  This library is available in the Arduino IDE and also at https://github.com/thomasfredericks/Bounce2
 
     EXAMPLE NOTES
-    1. Install the Grove reed switch device into slot 'D0' on the Arduino MKR Connector Carrier board
+    1. Install the Grove reed switch device into slot 'D2' on the Arduino MKR Connector Carrier board
     2. Make the USB connection between the Arduino MKR 1400 your Arduino IDE (PC)
     3. Use the Arduino IDE to verify and upload the Arduino image to the MKR GPS 1400, you may need to install additional libraries from the IDE (CTRL SHIFT I) to verify the sketch.
     4. Start the serial monitor and present a magnet to the reed switch, the serial connection speed is set by SERIAL_SPEED at 9600 bps
@@ -43,7 +43,7 @@
     BTN State : 1
 */
 
-#define REED_INPUT 0
+#define REED_INPUT 2
 #define SERIAL_SPEED 9600
 
 #include <Arduino.h>
