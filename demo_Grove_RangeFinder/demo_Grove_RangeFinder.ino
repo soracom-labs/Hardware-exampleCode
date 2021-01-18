@@ -20,7 +20,7 @@
     Ultrasonic : by LG, for Seeed Technology Inc. and is licensed under The MIT License.  This library is available in the Arduino IDE and also at https://github.com/Seeed-Studio/Seeed_Arduino_UltrasonicRanger
     
     EXAMPLE NOTES
-    1. Install the USRF device into slot 'D0' on the Arduino MKR Connector Carrier board
+    1. Install the USRF device into slot 'D1' on the Arduino MKR Connector Carrier board
     2. Make the USB connection between the Arduino MKR 1400 your Arduino IDE (PC)
     3. Use the Arduino IDE to verify and upload the Arduino image to the MKR GPS 1400, you may need to install additional libraries from the IDE (CTRL SHIFT I) to verify the sketch.
     4. Start the serial monitor and press the button, the serial connection speed is set by SERIAL_SPEED at 9600 bps
@@ -42,7 +42,7 @@
 
 #define SERIAL_SPEED 9600
 
-#define USRF_PIN 0
+#define USRF_PIN 1
 #define UPDATE_DELAY 5000
 
 Ultrasonic usrf(USRF_PIN);
