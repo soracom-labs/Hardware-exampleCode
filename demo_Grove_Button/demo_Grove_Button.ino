@@ -40,7 +40,7 @@
     BTN State : 0
 */
 
-#define BTN_INPUT 0
+#define BTN_INPUT 4
 #define SERIAL_SPEED 9600
 
 #include <Arduino.h>
